@@ -5,6 +5,10 @@ The objective of this lab is to create a Windows Server 2022 virtual machine tha
 
 ## Downloading Windows Server 2022 and Windows 11 Installation Media
 Go to each website and download the respective installation media for both Windows Server 2022 and Windows 11, as seen in the screenshots below.
+Select "**Create Windows Installation Media**" and download.
+<img width="1219" height="816" alt="Screenshot 2026-08-05 155943" src="https://github.com/user-attachments/assets/69a9100d-f939-4bf2-9962-51738aeafe10" />
+Select **64-bit edition** for ISO Download (English).
+<img width="1167" height="464" alt="Screenshot 2026-08-05 160108" src="https://github.com/user-attachments/assets/486f7664-42ef-4461-bf72-09f5af1601c1" />
 
 ## Installing Oracle Virtual Box
 If you don't already have Oracle Virtual Box installed on your device, make sure to download it from the website below. Don't forget to enable Virtualization on your device!
@@ -13,33 +17,40 @@ If you don't already have Oracle Virtual Box installed on your device, make sure
 Once you have the program running on your device, it's time to create the machines. 
 1. First, click **"Machine"** in the upper menu and select **"New"**.
    <img width="1276" height="749" alt="image" src="https://github.com/user-attachments/assets/78643fc6-eeac-4c30-96ce-477a7aa40e01" />
-2. Name the server machine to a proper name, like "WindowsServer2022", and select the **OS Version** to **Windows Server 2022 (64-bit)**.
+2. Set the settings for the machine as follows:
+   
+| Component | Setting |
+| ---------------- | ----------- |
+| Base Memory | 4096 MB |
+| Number of CPUs | 2 |
+
+3. Name the server machine to a proper name, like "WindowsServer2022", and select the **OS Version** to **Windows Server 2022 (64-bit)**.
    <img width="785" height="558" alt="Screenshot 2026-08-05 143008" src="https://github.com/user-attachments/assets/66e797a9-f41c-48a9-a71e-b71d977e92ba" />
-3. After selecting **Finish**, power on the machine, the machine will be unable to boot without an ISO file. Select your Server 2022 download and try to reboot using your ISO.
+4. After selecting **Finish**, power on the machine, the machine will be unable to boot without an ISO file. Select your Server 2022 download and try to reboot using your ISO.
 <img width="720" height="486" alt="Screenshot 2026-08-05 143753" src="https://github.com/user-attachments/assets/7c0955c9-72c5-4b45-92ae-087faf6d4330" />
 
-4. Once the virtual device has restarted, proceed through installation, selecting the **Language to install** to **English (United States)** and **Keyboard or input method** to **US**.
+5. Once the virtual device has restarted, proceed through installation, selecting the **Language to install** to **English (United States)** and **Keyboard or input method** to **US**.
 <img width="1024" height="851" alt="Screenshot 2026-08-05 144206" src="https://github.com/user-attachments/assets/aeff65a9-eb3a-40bd-b3e1-b4521cd4c7da" />
 
-5. Proceed with installation, making sure to select **Windows Server 2022 Standard Evaluation (Desktop Experience)** to have GUI interface.
+6. Proceed with installation, making sure to select **Windows Server 2022 Standard Evaluation (Desktop Experience)** to have GUI interface.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_46_22" src="https://github.com/user-attachments/assets/6fa6be9a-6231-43b5-8b00-10d6bd891707" />
 
-6. Accept the **Microsoft Software License Terms** and select **Next**.
+7. Accept the **Microsoft Software License Terms** and select **Next**.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_50_15" src="https://github.com/user-attachments/assets/f07be987-046e-41ce-b716-7967c23d1f75" />
 
-7. Select **Custom: Install Microsoft Server Operating System only (advanced)** as your type of installation.
+9. Select **Custom: Install Microsoft Server Operating System only (advanced)** as your type of installation.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_56_31" src="https://github.com/user-attachments/assets/b639baa9-c906-4c1f-ba8d-6a94529aebd6" />
 
-8. Choose **Drive 0 Unallocated Space** as your destination for installing the operating system.
+10. Choose **Drive 0 Unallocated Space** as your destination for installing the operating system.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_58_41" src="https://github.com/user-attachments/assets/2d6fb2c5-46f7-466b-8510-2afbcb9735cf" />
 
-9. Wait for installation to complete.
+11. Wait for installation to complete.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_59_30" src="https://github.com/user-attachments/assets/1085dc91-4ef8-442e-ae62-1cce7fd8c696" />
 
-10. Once the device restarts a few times, enter a secure password.
+12. Once the device restarts a few times, enter a secure password.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_15_05_27" src="https://github.com/user-attachments/assets/3e869601-4051-4fd3-aefd-ffd52ea94187" />
 
-11. Input **Ctrl-Alt-Del** using the **Input** menu and sign in.
+13. Input **Ctrl-Alt-Del** using the **Input** menu and sign in.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_15_10_24" src="https://github.com/user-attachments/assets/c1e10ee8-c735-4034-ac8a-05b173f0beb4" />
 
 Once you have Windows Server machine fully set up, set up a Windows 11 client device.
@@ -51,6 +62,9 @@ Once you have Windows Server machine fully set up, set up a Windows 11 client de
 <img width="783" height="559" alt="Screenshot 2026-08-05 152423" src="https://github.com/user-attachments/assets/a3abbdef-a931-48df-9174-c719b324b7ff" />
 3. Wait for Windows Installation to finish.
 <img width="1024" height="768" alt="VirtualBox_Windows11Client_05_08_2026_15_25_41" src="https://github.com/user-attachments/assets/8a9e5193-69a6-456e-88d5-e9e7e36089d4" />
+4. After installation is complete, you should be able to log in to Windows using your temporary password.
+<img width="1024" height="768" alt="VirtualBox_Windows11Client_05_08_2026_15_40_27" src="https://github.com/user-attachments/assets/ea7fb7bc-0782-4fb3-8d7f-9f14ba4d7228" />
+
 
 
 
