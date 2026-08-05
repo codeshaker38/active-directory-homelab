@@ -12,6 +12,8 @@ Select **64-bit edition** for ISO Download (English).
 
 ## Installing Oracle Virtual Box
 If you don't already have Oracle Virtual Box installed on your device, make sure to download it from the website below. Don't forget to enable Virtualization on your device!
+<img width="1211" height="998" alt="Screenshot 2026-08-05 160457" src="https://github.com/user-attachments/assets/d2ebde6c-08d2-43a3-b262-5a5d1815c04e" />
+
 
 ## Creating Your Windows Server 2022 Machine
 Once you have the program running on your device, it's time to create the machines. 
