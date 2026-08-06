@@ -26,3 +26,10 @@ Go to **Group Policy Management** under **Tools** and right click on any OU you 
 
   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_16_33_54" src="https://github.com/user-attachments/assets/4dcceb18-9086-4a66-8902-22d510b7d2a5" />
 
+Once the GPO is created, you can edit by right-clicking it and selecting **Edit**
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_16_39_00" src="https://github.com/user-attachments/assets/c70a0cd0-e39f-4ee6-91b2-d650e3f1dc51" />
+
+Here you customize the GPO, deciding whether you want it configured only to users or computers, and whether it's a policy (can't be changed) or preference (can be customized by the user).
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_16_43_35" src="https://github.com/user-attachments/assets/fdfe5ee4-723f-4552-8282-dacf5763a0f1" />
