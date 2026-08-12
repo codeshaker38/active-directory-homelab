@@ -36,3 +36,36 @@ The objective is to join a windows client to connect to the server domain by con
 ## Join Windows Client to Domain
 1. Repeat the process of setting up the network to connect, making sure to pick a different IP address that's within the same subnet mask.
 
+ <img width="1024" height="768" alt="VirtualBox_Windows11Client_07_08_2026_16_29_22" src="https://github.com/user-attachments/assets/61edefbd-7eb6-43cd-9fec-0f225961057a" />
+
+2. To make sure that the client is discoverable by the server, ping the server name in **Command Prompt**.
+
+   <img width="1024" height="768" alt="VirtualBox_Windows11Client_12_08_2026_19_28_34" src="https://github.com/user-attachments/assets/f4dcedde-bd2f-432a-804f-731783b5eadd" />
+
+3. Go to **File Explorer**, right-click **This PC** and go to **Properties**.
+
+   <img width="1024" height="768" alt="VirtualBox_Windows11Client_12_08_2026_19_37_58" src="https://github.com/user-attachments/assets/a06ed569-7d68-409a-a330-48785fa360b3" />
+
+4. In **System > About**, scroll down to **Domain or workgroup**, select it and select **Change**.
+
+   <img width="1024" height="768" alt="VirtualBox_Windows11Client_12_08_2026_19_41_46" src="https://github.com/user-attachments/assets/c04d6122-c7a5-4266-83b9-b62dc8b51983" />
+
+5. Under **Domain**, place the domain name in the text box, select **OK**, and put in the administrator username and password.
+
+   <img width="1024" height="768" alt="VirtualBox_Windows11Client_12_08_2026_19_44_02" src="https://github.com/user-attachments/assets/d592c42a-6de8-4996-a5c3-31acf1c52c9f" />
+
+6. After your machine restarts, the machine will be connected to the domain.
+
+     <img width="1024" height="768" alt="VirtualBox_Windows11Client_12_08_2026_19_44_27" src="https://github.com/user-attachments/assets/49069423-a43f-4445-a73b-54c02d2c205c" />
+
+
+
+
+
+  
+
+
+
+
+
+
