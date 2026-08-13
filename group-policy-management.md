@@ -33,3 +33,41 @@ Once the GPO is created, you can edit by right-clicking it and selecting **Edit*
 Here you customize the GPO, deciding whether you want it configured only to users or computers, and whether it's a policy (can't be changed) or preference (can be customized by the user).
 
   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_16_43_35" src="https://github.com/user-attachments/assets/fdfe5ee4-723f-4552-8282-dacf5763a0f1" />
+
+## Applying Group Policy
+Now that we've covered the basics, we can apply some simple GPOs to our users.
+
+In our newly created group, **Workers**, we can apply GPOs to multiple users within the group at once.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_19_58_09" src="https://github.com/user-attachments/assets/1ec65b67-9186-41a5-91ec-944f4361edc0" />
+
+We can apply a new GPO to the OU in **Group Policy Management**
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_00_25" src="https://github.com/user-attachments/assets/46a4f8bd-8cfe-4ae8-b247-01c5dd4aac99" />
+
+Right-click on the GPO and select **Edit**, where you will configure a new policy to increase the minimum password length and enable account lockout after 3 failed attempts. Go to **Windows Settings** under **Computer Configuration**, and drop down to **Account Policies**.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_05_39" src="https://github.com/user-attachments/assets/3575250e-8939-4c61-9903-571663ce63eb" />
+
+In **Password Policy**, select **Minimum password length** and define it to more characters than the users' current passwords.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_08_13" src="https://github.com/user-attachments/assets/529b8e71-0ebe-49f9-99f9-c2fcab584116" />
+
+In **Account Lockout Policy**, select **Account lockout threshold Properties** and define it to 3 invalid logon attempts.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_10_38" src="https://github.com/user-attachments/assets/e1dc385b-2054-49ab-9187-d248f0d33e68" />
+
+In **Group Policy Management**, right click on the policy and ensure it is **Enforced**.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_12_43" src="https://github.com/user-attachments/assets/fcdbed7e-b836-4a8d-82c5-2f5f3a08f130" />
+
+
+
+
+
+
+
+
+
+
+
