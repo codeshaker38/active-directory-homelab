@@ -37,29 +37,39 @@ Here you customize the GPO, deciding whether you want it configured only to user
 ## Applying Group Policy
 Now that we've covered the basics, we can apply some simple GPOs to our users.
 
-In our newly created group, **Workers**, we can apply GPOs to multiple users within the group at once.
+In **Group Policy Objects**, right-click **Default Domain Policy** and select **Edit**.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_19_58_09" src="https://github.com/user-attachments/assets/1ec65b67-9186-41a5-91ec-944f4361edc0" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_21_41" src="https://github.com/user-attachments/assets/bf1882c9-e289-4a80-bb7a-fc62d8dedf42" />
 
-We can apply a new GPO to the OU in **Group Policy Management**
+Here you will configure a new policy to increase the minimum password length and enable account lockout after 3 failed attempts. Go to **Windows Settings** under **Computer Configuration** and drop down to **Account Policies**.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_00_25" src="https://github.com/user-attachments/assets/46a4f8bd-8cfe-4ae8-b247-01c5dd4aac99" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_34_16" src="https://github.com/user-attachments/assets/dcb8b226-8d28-4130-bc4d-f5e053505793" />
 
-Right-click on the GPO and select **Edit**, where you will configure a new policy to increase the minimum password length and enable account lockout after 3 failed attempts. Go to **Windows Settings** under **Computer Configuration**, and drop down to **Account Policies**.
+In **Password Policy**, Right-click **Minimum password length** and select **Properties**, and define it to more characters than the users' current passwords.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_05_39" src="https://github.com/user-attachments/assets/3575250e-8939-4c61-9903-571663ce63eb" />
-
-In **Password Policy**, select **Minimum password length** and define it to more characters than the users' current passwords.
-
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_08_13" src="https://github.com/user-attachments/assets/529b8e71-0ebe-49f9-99f9-c2fcab584116" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_36_08" src="https://github.com/user-attachments/assets/3c01a184-05aa-4b07-8e7e-d8511d52b01d" />
 
 In **Account Lockout Policy**, select **Account lockout threshold Properties** and define it to 3 invalid logon attempts.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_10_38" src="https://github.com/user-attachments/assets/e1dc385b-2054-49ab-9187-d248f0d33e68" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_37_55" src="https://github.com/user-attachments/assets/ec022eef-76d8-4498-8921-cd1de216900b" />
 
-In **Group Policy Management**, right click on the policy and ensure it is **Enforced**.
+Right-click **Default Domain Policy** and select **Enforced**.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_12_08_2026_20_12_43" src="https://github.com/user-attachments/assets/fcdbed7e-b836-4a8d-82c5-2f5f3a08f130" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_41_56" src="https://github.com/user-attachments/assets/7acb5e1d-789a-473d-a68c-35d128f590e3" />
+
+Now that our Group policy is enforced, we can test it out with our users on our client device.
+
+If we try to log in as Kyle, after three failed attempts, it will show that our account is locked.
+
+  <img width="1024" height="768" alt="VirtualBox_Windows11Client_16_08_2026_14_49_42" src="https://github.com/user-attachments/assets/90273b5e-d782-4317-8102-27c30d722f7e" />
+
+To unlock his account, we can go to his account, select **Properties** and go to **Account**, and select **Unlock account**.
+
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_56_22" src="https://github.com/user-attachments/assets/7e12ccb6-9220-4ddd-afed-8f46766af2c1" />
+
+
+
+
 
 
 
