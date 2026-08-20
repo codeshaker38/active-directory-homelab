@@ -35,37 +35,26 @@ Here you customize the GPO, deciding whether you want it configured only to user
   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_16_43_35" src="https://github.com/user-attachments/assets/fdfe5ee4-723f-4552-8282-dacf5763a0f1" />
 
 ## Applying Group Policy
-Now that we've covered the basics, we can apply some simple GPOs to our users.
+Now that we've covered the basics, we can apply some simple GPOs to a sample OU.
 
-In **Group Policy Objects**, right-click **Default Domain Policy** and select **Edit**.
+In **Sample OU**, create a new GPO named **Wallpaper**, since we're going to change the wallpaper for the users in this OU. Select **Edit** to make the changes.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_21_41" src="https://github.com/user-attachments/assets/bf1882c9-e289-4a80-bb7a-fc62d8dedf42" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_20_08_2026_19_31_54" src="https://github.com/user-attachments/assets/febc8ae1-1b63-403f-8e30-fe21394d63f6" />
 
-Here you will configure a new policy to increase the minimum password length and enable account lockout after 3 failed attempts. Go to **Windows Settings** under **Computer Configuration** and drop down to **Account Policies**.
+Select **Desktop Wallpaper** and select **Enabled**. Using a UNC path to paste the image file's location, copy and paste the address from the sharing tab of the file's folder location and add the image file's name at the end, i.e. **beach.jpg**.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_34_16" src="https://github.com/user-attachments/assets/dcb8b226-8d28-4130-bc4d-f5e053505793" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_20_08_2026_19_41_38" src="https://github.com/user-attachments/assets/e8760aed-8b49-4d5b-81e8-6fddaa21e5b0" />
 
-In **Password Policy**, Right-click **Minimum password length** and select **Properties**, and define it to more characters than the users' current passwords.
+After enforcing the policy, make sure that the folder containing the file is shared with the users.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_36_08" src="https://github.com/user-attachments/assets/3c01a184-05aa-4b07-8e7e-d8511d52b01d" />
+  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_20_08_2026_19_45_04" src="https://github.com/user-attachments/assets/bfe54cc8-9d1e-4977-9694-da9c12d54365" />
 
-In **Account Lockout Policy**, select **Account lockout threshold Properties** and define it to 3 invalid logon attempts.
+After this, the desktop wallpaper should be changed **ONLY** for the users within the applied OU.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_37_55" src="https://github.com/user-attachments/assets/ec022eef-76d8-4498-8921-cd1de216900b" />
+  <img width="1024" height="768" alt="VirtualBox_Windows11Client_20_08_2026_19_49_35" src="https://github.com/user-attachments/assets/bdb17fbc-9304-47e1-b1ec-0acabd962df5" />
 
-Right-click **Default Domain Policy** and select **Enforced**.
 
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_41_56" src="https://github.com/user-attachments/assets/7acb5e1d-789a-473d-a68c-35d128f590e3" />
 
-Now that our Group policy is enforced, we can test it out with our users on our client device.
-
-If we try to log in as Kyle, after three failed attempts, it will show that our account is locked.
-
-  <img width="1024" height="768" alt="VirtualBox_Windows11Client_16_08_2026_14_49_42" src="https://github.com/user-attachments/assets/90273b5e-d782-4317-8102-27c30d722f7e" />
-
-To unlock his account, we can go to his account, select **Properties** and go to **Account**, and select **Unlock account**.
-
-  <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_16_08_2026_14_56_22" src="https://github.com/user-attachments/assets/7e12ccb6-9220-4ddd-afed-8f46766af2c1" />
 
 
 
