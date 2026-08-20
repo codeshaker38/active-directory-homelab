@@ -40,19 +40,19 @@ Once you have the program running on your device, it's time to create the machin
 7. Accept the **Microsoft Software License Terms** and select **Next**.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_50_15" src="https://github.com/user-attachments/assets/f07be987-046e-41ce-b716-7967c23d1f75" />
 
-9. Select **Custom: Install Microsoft Server Operating System only (advanced)** as your type of installation.
+8. Select **Custom: Install Microsoft Server Operating System only (advanced)** as your type of installation.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_56_31" src="https://github.com/user-attachments/assets/b639baa9-c906-4c1f-ba8d-6a94529aebd6" />
 
-10. Choose **Drive 0 Unallocated Space** as your destination for installing the operating system.
+9. Choose **Drive 0 Unallocated Space** as your destination for installing the operating system.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_58_41" src="https://github.com/user-attachments/assets/2d6fb2c5-46f7-466b-8510-2afbcb9735cf" />
 
-11. Wait for installation to complete.
+10. Wait for installation to complete.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_14_59_30" src="https://github.com/user-attachments/assets/1085dc91-4ef8-442e-ae62-1cce7fd8c696" />
 
-12. Once the device restarts a few times, enter a secure password.
+11. Once the device restarts a few times, enter a secure password.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_15_05_27" src="https://github.com/user-attachments/assets/3e869601-4051-4fd3-aefd-ffd52ea94187" />
 
-13. Input **Ctrl-Alt-Del** using the **Input** menu and sign in.
+12. Input **Ctrl-Alt-Del** using the **Input** menu and sign in.
 <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_05_08_2026_15_10_24" src="https://github.com/user-attachments/assets/c1e10ee8-c735-4034-ac8a-05b173f0beb4" />
 
 Once you have Windows Server machine fully set up, set up a Windows 11 client device.
