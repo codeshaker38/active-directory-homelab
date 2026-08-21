@@ -13,7 +13,6 @@ This project documents a Windows Server Active Directory lab built to practice c
 - Apply Group Policy
 - Join Windows clients to the domain
 - Perform common Help Desk administration
-- Automate repetitive tasks with PowerShell
 
 ## Skills Demonstrated
 
@@ -22,7 +21,6 @@ This project documents a Windows Server Active Directory lab built to practice c
 - DNS
 - DHCP
 - Group Policy Management
-- PowerShell
 - Windows 11 Administration
 - Troubleshooting
 
@@ -33,7 +31,7 @@ This project documents a Windows Server Active Directory lab built to practice c
 | Hypervisor | Oracle VirtualBox |
 | Server | Windows Server 2022 |
 | Client | Windows 11 Pro |
-| Domain | deanhelp.local |
+| Domain | localserver.com |
 
 ## Repository Guide
 
@@ -41,5 +39,4 @@ This project documents a Windows Server Active Directory lab built to practice c
 - Active Directory configuration
 - User administration
 - Group Policy
-- PowerShell automation
 - Troubleshooting examples
