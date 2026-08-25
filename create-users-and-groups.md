@@ -23,7 +23,7 @@ Once again, right-click on any group or OU and select **New** and then **Group**
 
   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_07_08_2026_15_08_31" src="https://github.com/user-attachments/assets/ff155b24-ed05-4235-b977-9526870029e0" />
 
-Enter in the group name, set the **Group scope** (let's do Global) and set the **Group type** (let's do **Security**)
+Enter in the group name, set the **Group scope** (**Global**, meaning it is limited to only our local domain) and set the **Group type** (let's do **Security** in order to assign permissions to folders/files)
 
   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_07_08_2026_15_20_10" src="https://github.com/user-attachments/assets/2c436e6e-f0f6-41bc-95dd-b063d4461330" />
 
