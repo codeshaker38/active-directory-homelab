@@ -1,6 +1,6 @@
 # Install Active Directory
 ## Objective
-The objective is to install active directory on the server machine and configure it to be a domain controller for the network.
+The objective is to install Active Directory on the server machine and configure it to be a domain controller for the network.
 ## Installing Active Directory
 To make locating your device easier in the network, go to **Local Server**, click **Computer name** and click **Change** in order to change the name of your machine to whatever you like. 
 
