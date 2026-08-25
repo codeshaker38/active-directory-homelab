@@ -20,7 +20,7 @@ If we log in to Kyle's account, we can see that he has access to the folder.
 
   <img width="1024" height="768" alt="VirtualBox_Windows11Client_16_08_2026_15_57_17" src="https://github.com/user-attachments/assets/71c7acd0-4492-40a2-bfe8-a755f7c227c0" />
 
-Whereas Justin does not have access to the account.
+Whereas Justin does not have access to the folder.
 
   <img width="1024" height="768" alt="VirtualBox_Windows11Client_16_08_2026_15_59_35" src="https://github.com/user-attachments/assets/0c87fc71-b97e-4dc0-b5f7-65ae9f279b2e" />
 
