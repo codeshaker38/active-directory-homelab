@@ -32,19 +32,9 @@ Once your computer has restarted, the changes will have taken effect.
 
    <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_15_13_39" src="https://github.com/user-attachments/assets/484e19fd-555c-43ba-87b6-117a9db6209d" />
 
-7. Proceed with installation until **Review Options** and select **View Script**, where you will copy the text in the opened notepad.
-
-   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_15_18_52" src="https://github.com/user-attachments/assets/1f252f92-f35c-4ddb-962c-7a9dd7b0b72a" />
-
-   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_15_19_15" src="https://github.com/user-attachments/assets/5f39be8f-5113-4a9a-90a6-d39d55026a12" />
-
-8. If you don't wish to proceed with installation normally, you can use this script to promote server on Powershell. Go to PowerShell and select **Run as administrator**. Copy and paste the code into the program and allow installation to progress.
-
-   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_15_22_06" src="https://github.com/user-attachments/assets/80caae52-7efd-4bec-b8c5-e7556082299a" />
-
-   <img width="1024" height="768" alt="VirtualBox_WindowsServers2022_06_08_2026_15_25_24" src="https://github.com/user-attachments/assets/18b50879-a457-4911-8a10-198d7b406b06" />
-
-9. After your computer restarts, the process should be complete.
+7. Proceed with installation.
+   
+8. After your computer restarts, the process should be complete.
 
 
 
